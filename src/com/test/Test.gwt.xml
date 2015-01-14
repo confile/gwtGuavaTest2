@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='test'>
+  <inherits name='com.google.gwt.user.User'/>
+  <inherits name="com.google.gwt.i18n.I18N"/>
+  <inherits name='com.google.gwt.editor.Editor' />
+  <inherits name="com.google.gwt.http.HTTP"/>
+<!--   <inherits name='com.google.gwt.inject.Inject' /> -->
+  <inherits name='com.google.gwt.query.Query'/>
+  
+<!--   <entry-point class='com.test.client.Test'/> -->
+  <source path='client'/>
+  <source path='shared'/>
+  <add-linker name="xsiframe"/>
+  
+  <inherits name="com.google.common.collect.Collect"/>
+  
+<!--   <inherits name="com.gwtplatform.dispatch.rpc.DispatchRpc"/> -->
+<!-- 	<inherits name="com.gwtplatform.dispatch.rest.DispatchRestShared"/>  -->
+	
+<!--   <inherits name="com.gwtplatform.dispatch.rest.DispatchRest"/> -->
+<!--   <inherits name='com.gwtplatform.mvp.MvpWithEntryPoint' /> -->
+  
+<!--   	<extend-configuration-property name="gin.ginjector.modules" -->
+<!-- 		     						value="com.test.client.gin.ClientModule"/> -->
+  
+  
+<!--   <inherits name="com.googlecode.mgwt.MGWT"/> -->
+  
+</module>
